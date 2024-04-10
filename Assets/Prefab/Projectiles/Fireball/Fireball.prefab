@@ -4953,15 +4953,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4969,11 +4969,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 4494156932542222, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5023,6 +5023,10 @@ PrefabInstance:
       propertyPath: m_BoundingSphereOverride.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114570474484077378, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 198365587299786030, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
       value: 0.8509804
@@ -5039,7 +5043,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114570474484077378, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 8b89bf46dd9737547be9c8715eefed3d, type: 3}
 --- !u!4 &5518501873030724026 stripped
 Transform:

@@ -29,7 +29,7 @@ public class LaserBehaviour : WeaponBehaviour
         laserScript.MaxLength = weaponData.AreaSize;
     //    laserScript.Laser.enabled = true;
      
-        for (int j = 0; j < 35; j++)
+        for (int j = 0; j < 30; j++)
         {
             RaycastHit[] hits = Physics.RaycastAll(transform.position, transform.TransformDirection(Vector3.forward), weaponData.AreaSize);
          //   DirectionChecker(hits[0].transform.position - transform.position) ;
@@ -75,8 +75,8 @@ public class LaserBehaviour : WeaponBehaviour
     }
     IEnumerator PrepareDisable()
     { 
-        yield return new WaitForSeconds(destroyAfterSeconds-1);
-        laserScript.DisablePrepare();
+        yield return new WaitForSeconds(destroyAfterSeconds);
+      //  laserScript.DisablePrepare();
         Destroy(gameObject, 1);
     }
 }

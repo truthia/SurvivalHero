@@ -147,7 +147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1959126674990218, guid: b67042affc59bdf469a26afcc712c2bc, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4692998033864990, guid: b67042affc59bdf469a26afcc712c2bc, type: 3}
       propertyPath: m_RootOrder
@@ -219,7 +219,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 120067324791973530, guid: b67042affc59bdf469a26afcc712c2bc, type: 3}
       propertyPath: m_Parameters.widthMultiplier
-      value: 1
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 120067324791973530, guid: b67042affc59bdf469a26afcc712c2bc, type: 3}
       propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].time
@@ -250,9 +250,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1494555525709266939}
     m_Modifications:
+    - target: {fileID: 2072093351684827172, guid: 3039c2ebcd61c884ab9c9d97efbdf8d8, type: 3}
+      propertyPath: beamLength
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072093351684827172, guid: 3039c2ebcd61c884ab9c9d97efbdf8d8, type: 3}
+      propertyPath: widthMultiplier
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2072093351684827173, guid: 3039c2ebcd61c884ab9c9d97efbdf8d8, type: 3}
       propertyPath: m_Name
       value: PolyBeamStaticGreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 2072093351684827173, guid: 3039c2ebcd61c884ab9c9d97efbdf8d8, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2072093351684827179, guid: 3039c2ebcd61c884ab9c9d97efbdf8d8, type: 3}
       propertyPath: m_RootOrder
