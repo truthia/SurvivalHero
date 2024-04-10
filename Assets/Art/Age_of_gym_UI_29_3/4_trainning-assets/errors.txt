@@ -1,0 +1,8 @@
+[2024-3-29 09:43:05] layer "light_eff.png": Duplicate path: light_eff.png
+[2024-3-29 09:43:05] layer "bubble.png": Duplicate path: bubble.png
+[2024-3-29 09:43:05] layer "light_eff.png": Duplicate path: light_eff.png
+[2024-3-29 09:43:05] layer "bubble.png": Duplicate path: bubble.png
+[2024-3-29 09:43:05] layer "cooldown_empty.png": Duplicate path: cooldown_empty.png
+[2024-3-29 09:43:05] layer "+10%": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2024-3-29 09:43:05] layer "+10%": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2024-3-29 09:43:05] layer "+20%": Expected Either a default asset specification or a layer asset specification but "+" found.

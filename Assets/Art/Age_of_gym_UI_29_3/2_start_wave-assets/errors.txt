@@ -1,0 +1,4 @@
+[2024-3-29 09:41:41] layer "star_1.png": Duplicate path: star_1.png
+[2024-3-29 09:41:41] layer "star_2.png": Duplicate path: star_2.png
+[2024-3-29 09:41:41] layer "star_1.png": Duplicate path: star_1.png
+[2024-3-29 09:41:41] layer "star_2.png": Duplicate path: star_2.png

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf77c80dc3ea59b42b5545deba15564c, type: 3}
+  m_Name: Ice 4
+  m_EditorClassIdentifier: 
+  id: 4
+  weaponName: Ice4
+  bullet: Ice
+  damageMulti: 0.7
+  speed: 0
+  coodownDuration: 3
+  pirece: 999
+  canCastWhenMove: 1
+  level: 4
+  nextWeaponName: Ice5
+  icon: {fileID: 21300000, guid: 7e41a7642aff37840876adebd3ee6514, type: 3}
+  displayName: Ice Attack
+  description: sdfdsxv sdgs  ss sdf sdf  s sdf
+  areaSize: 6

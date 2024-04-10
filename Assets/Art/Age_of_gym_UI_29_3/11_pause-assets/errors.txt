@@ -1,0 +1,1 @@
+[2024-3-29 10:00:13] layer "sound_off.png - Smart Object Group": Expected end of input but "-" found.

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf77c80dc3ea59b42b5545deba15564c, type: 3}
+  m_Name: Laser 2
+  m_EditorClassIdentifier: 
+  id: 6
+  weaponName: Laser2
+  bullet: Laser
+  damageMulti: 0.385
+  speed: 0
+  coodownDuration: 4
+  pirece: 999
+  canCastWhenMove: 1
+  level: 2
+  nextWeaponName: Laser3
+  icon: {fileID: 21300000, guid: f89272849383a1f4ca69db5ff4a8869a, type: 3}
+  displayName: Laser
+  description: 'dsa  asd a sad a as '
+  areaSize: 6.6

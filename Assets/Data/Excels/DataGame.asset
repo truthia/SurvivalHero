@@ -1,0 +1,536 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c345064ecbd98473989850ee597cd1d8, type: 3}
+  m_Name: DataGame
+  m_EditorClassIdentifier: 
+  PlayerLevel:
+  - Level: 1
+    Idle: 1
+    SkillDmg: 10
+    SkillCost: 0
+    UnlockRequire: 0
+    SkillName: FireBall1
+  - Level: 2
+    Idle: 1
+    SkillDmg: 20
+    SkillCost: 20
+    UnlockRequire: 0
+    SkillName: FireBall1
+  - Level: 3
+    Idle: 1
+    SkillDmg: 30
+    SkillCost: 25
+    UnlockRequire: 0
+    SkillName: FireBall1
+  - Level: 4
+    Idle: 2
+    SkillDmg: 40
+    SkillCost: 31
+    UnlockRequire: 0
+    SkillName: FireBall1
+  - Level: 5
+    Idle: 2
+    SkillDmg: 50
+    SkillCost: 39
+    UnlockRequire: 0
+    SkillName: FireBall1
+  - Level: 6
+    Idle: 2
+    SkillDmg: 60
+    SkillCost: 49
+    UnlockRequire: 1
+    SkillName: FireBall1
+  - Level: 7
+    Idle: 3
+    SkillDmg: 70
+    SkillCost: 61
+    UnlockRequire: 1
+    SkillName: FireBall1
+  - Level: 8
+    Idle: 4
+    SkillDmg: 80
+    SkillCost: 76
+    UnlockRequire: 1
+    SkillName: FireBall1
+  - Level: 9
+    Idle: 4
+    SkillDmg: 90
+    SkillCost: 95
+    UnlockRequire: 1
+    SkillName: FireBall1
+  - Level: 10
+    Idle: 5
+    SkillDmg: 100
+    SkillCost: 119
+    UnlockRequire: 1
+    SkillName: FireBall1
+  - Level: 11
+    Idle: 6
+    SkillDmg: 110
+    SkillCost: 149
+    UnlockRequire: 2
+    SkillName: FireBall2
+  - Level: 12
+    Idle: 7
+    SkillDmg: 120
+    SkillCost: 186
+    UnlockRequire: 2
+    SkillName: FireBall2
+  - Level: 13
+    Idle: 9
+    SkillDmg: 130
+    SkillCost: 233
+    UnlockRequire: 2
+    SkillName: FireBall2
+  - Level: 14
+    Idle: 11
+    SkillDmg: 140
+    SkillCost: 291
+    UnlockRequire: 2
+    SkillName: FireBall2
+  - Level: 15
+    Idle: 13
+    SkillDmg: 150
+    SkillCost: 364
+    UnlockRequire: 2
+    SkillName: FireBall2
+  - Level: 16
+    Idle: 15
+    SkillDmg: 160
+    SkillCost: 455
+    UnlockRequire: 3
+    SkillName: FireBall2
+  - Level: 17
+    Idle: 18
+    SkillDmg: 170
+    SkillCost: 568
+    UnlockRequire: 3
+    SkillName: FireBall2
+  - Level: 18
+    Idle: 22
+    SkillDmg: 180
+    SkillCost: 711
+    UnlockRequire: 3
+    SkillName: FireBall2
+  - Level: 19
+    Idle: 27
+    SkillDmg: 190
+    SkillCost: 888
+    UnlockRequire: 3
+    SkillName: FireBall2
+  - Level: 20
+    Idle: 32
+    SkillDmg: 200
+    SkillCost: 1110
+    UnlockRequire: 3
+    SkillName: FireBall2
+  - Level: 21
+    Idle: 38
+    SkillDmg: 210
+    SkillCost: 1388
+    UnlockRequire: 4
+    SkillName: FireBall3
+  - Level: 22
+    Idle: 46
+    SkillDmg: 220
+    SkillCost: 1735
+    UnlockRequire: 4
+    SkillName: FireBall3
+  - Level: 23
+    Idle: 55
+    SkillDmg: 230
+    SkillCost: 2168
+    UnlockRequire: 4
+    SkillName: FireBall3
+  - Level: 24
+    Idle: 66
+    SkillDmg: 240
+    SkillCost: 2711
+    UnlockRequire: 4
+    SkillName: FireBall3
+  - Level: 25
+    Idle: 79
+    SkillDmg: 250
+    SkillCost: 3388
+    UnlockRequire: 4
+    SkillName: FireBall3
+  - Level: 26
+    Idle: 95
+    SkillDmg: 260
+    SkillCost: 4235
+    UnlockRequire: 5
+    SkillName: FireBall3
+  - Level: 27
+    Idle: 114
+    SkillDmg: 270
+    SkillCost: 5294
+    UnlockRequire: 5
+    SkillName: FireBall3
+  - Level: 28
+    Idle: 137
+    SkillDmg: 280
+    SkillCost: 6617
+    UnlockRequire: 5
+    SkillName: FireBall3
+  - Level: 29
+    Idle: 165
+    SkillDmg: 290
+    SkillCost: 8272
+    UnlockRequire: 5
+    SkillName: FireBall3
+  - Level: 30
+    Idle: 198
+    SkillDmg: 300
+    SkillCost: 10340
+    UnlockRequire: 5
+    SkillName: FireBall3
+  - Level: 31
+    Idle: 237
+    SkillDmg: 310
+    SkillCost: 12925
+    UnlockRequire: 6
+    SkillName: FireBall4
+  - Level: 32
+    Idle: 285
+    SkillDmg: 320
+    SkillCost: 16156
+    UnlockRequire: 6
+    SkillName: FireBall4
+  - Level: 33
+    Idle: 342
+    SkillDmg: 330
+    SkillCost: 20195
+    UnlockRequire: 6
+    SkillName: FireBall4
+  - Level: 34
+    Idle: 410
+    SkillDmg: 340
+    SkillCost: 25244
+    UnlockRequire: 6
+    SkillName: FireBall4
+  - Level: 35
+    Idle: 492
+    SkillDmg: 350
+    SkillCost: 31554
+    UnlockRequire: 6
+    SkillName: FireBall4
+  - Level: 36
+    Idle: 591
+    SkillDmg: 360
+    SkillCost: 39443
+    UnlockRequire: 7
+    SkillName: FireBall4
+  - Level: 37
+    Idle: 709
+    SkillDmg: 370
+    SkillCost: 49304
+    UnlockRequire: 7
+    SkillName: FireBall4
+  - Level: 38
+    Idle: 851
+    SkillDmg: 380
+    SkillCost: 61630
+    UnlockRequire: 7
+    SkillName: FireBall4
+  - Level: 39
+    Idle: 1021
+    SkillDmg: 390
+    SkillCost: 77037
+    UnlockRequire: 7
+    SkillName: FireBall4
+  - Level: 40
+    Idle: 1225
+    SkillDmg: 400
+    SkillCost: 96296
+    UnlockRequire: 7
+    SkillName: FireBall4
+  - Level: 41
+    Idle: 1470
+    SkillDmg: 410
+    SkillCost: 120371
+    UnlockRequire: 8
+    SkillName: FireBall5
+  - Level: 42
+    Idle: 1764
+    SkillDmg: 420
+    SkillCost: 150463
+    UnlockRequire: 8
+    SkillName: FireBall5
+  - Level: 43
+    Idle: 2116
+    SkillDmg: 430
+    SkillCost: 188079
+    UnlockRequire: 8
+    SkillName: FireBall5
+  - Level: 44
+    Idle: 2540
+    SkillDmg: 440
+    SkillCost: 235099
+    UnlockRequire: 8
+    SkillName: FireBall5
+  - Level: 45
+    Idle: 3048
+    SkillDmg: 450
+    SkillCost: 293874
+    UnlockRequire: 8
+    SkillName: FireBall5
+  - Level: 46
+    Idle: 3657
+    SkillDmg: 460
+    SkillCost: 367342
+    UnlockRequire: 9
+    SkillName: FireBall5
+  - Level: 47
+    Idle: 4389
+    SkillDmg: 470
+    SkillCost: 459177
+    UnlockRequire: 9
+    SkillName: FireBall5
+  - Level: 48
+    Idle: 5266
+    SkillDmg: 480
+    SkillCost: 573972
+    UnlockRequire: 9
+    SkillName: FireBall5
+  - Level: 49
+    Idle: 6320
+    SkillDmg: 490
+    SkillCost: 717465
+    UnlockRequire: 9
+    SkillName: FireBall5
+  - Level: 50
+    Idle: 7584
+    SkillDmg: 500
+    SkillCost: 896831
+    UnlockRequire: 9
+    SkillName: FireBall5
+  - Level: 51
+    Idle: 9100
+    SkillDmg: 510
+    SkillCost: 1121039
+    UnlockRequire: 10
+    SkillName: DragonPunch1
+  - Level: 52
+    Idle: 10921
+    SkillDmg: 520
+    SkillCost: 1401298
+    UnlockRequire: 10
+    SkillName: DragonPunch1
+  - Level: 53
+    Idle: 13105
+    SkillDmg: 530
+    SkillCost: 1751623
+    UnlockRequire: 10
+    SkillName: DragonPunch1
+  - Level: 54
+    Idle: 15726
+    SkillDmg: 540
+    SkillCost: 2189529
+    UnlockRequire: 10
+    SkillName: DragonPunch1
+  - Level: 55
+    Idle: 18871
+    SkillDmg: 550
+    SkillCost: 2736911
+    UnlockRequire: 10
+    SkillName: DragonPunch1
+  - Level: 56
+    Idle: 22645
+    SkillDmg: 560
+    SkillCost: 3421139
+    UnlockRequire: 11
+    SkillName: DragonPunch2
+  - Level: 57
+    Idle: 27174
+    SkillDmg: 570
+    SkillCost: 4276424
+    UnlockRequire: 11
+    SkillName: DragonPunch2
+  - Level: 58
+    Idle: 32609
+    SkillDmg: 580
+    SkillCost: 5345529
+    UnlockRequire: 11
+    SkillName: DragonPunch2
+  - Level: 59
+    Idle: 39130
+    SkillDmg: 590
+    SkillCost: 6681912
+    UnlockRequire: 11
+    SkillName: DragonPunch2
+  - Level: 60
+    Idle: 46956
+    SkillDmg: 600
+    SkillCost: 8352390
+    UnlockRequire: 11
+    SkillName: DragonPunch2
+  - Level: 61
+    Idle: 56348
+    SkillDmg: 610
+    SkillCost: 10440487
+    UnlockRequire: 12
+    SkillName: DragonPunch3
+  - Level: 62
+    Idle: 67617
+    SkillDmg: 620
+    SkillCost: 13050609
+    UnlockRequire: 12
+    SkillName: DragonPunch3
+  - Level: 63
+    Idle: 81140
+    SkillDmg: 630
+    SkillCost: 16313261
+    UnlockRequire: 12
+    SkillName: DragonPunch3
+  - Level: 64
+    Idle: 97369
+    SkillDmg: 640
+    SkillCost: 20391576
+    UnlockRequire: 12
+    SkillName: DragonPunch3
+  - Level: 65
+    Idle: 116842
+    SkillDmg: 650
+    SkillCost: 25489472
+    UnlockRequire: 12
+    SkillName: DragonPunch3
+  - Level: 66
+    Idle: 140211
+    SkillDmg: 660
+    SkillCost: 31861838
+    UnlockRequire: 13
+    SkillName: DragonPunch4
+  - Level: 67
+    Idle: 168253
+    SkillDmg: 670
+    SkillCost: 39827296
+    UnlockRequire: 13
+    SkillName: DragonPunch4
+  - Level: 68
+    Idle: 201903
+    SkillDmg: 680
+    SkillCost: 49784120
+    UnlockRequire: 13
+    SkillName: DragonPunch4
+  - Level: 69
+    Idle: 242284
+    SkillDmg: 690
+    SkillCost: 62230150
+    UnlockRequire: 13
+    SkillName: DragonPunch4
+  - Level: 70
+    Idle: 290741
+    SkillDmg: 700
+    SkillCost: 77787690
+    UnlockRequire: 13
+    SkillName: DragonPunch4
+  - Level: 71
+    Idle: 348889
+    SkillDmg: 710
+    SkillCost: 97234616
+    UnlockRequire: 14
+    SkillName: DragonPunch5
+  - Level: 72
+    Idle: 418667
+    SkillDmg: 720
+    SkillCost: 121543260
+    UnlockRequire: 14
+    SkillName: DragonPunch5
+  - Level: 73
+    Idle: 502400
+    SkillDmg: 730
+    SkillCost: 151929090
+    UnlockRequire: 14
+    SkillName: DragonPunch5
+  - Level: 74
+    Idle: 602880
+    SkillDmg: 740
+    SkillCost: 189911360
+    UnlockRequire: 14
+    SkillName: DragonPunch5
+  - Level: 75
+    Idle: 723456
+    SkillDmg: 750
+    SkillCost: 237389200
+    UnlockRequire: 14
+    SkillName: DragonPunch5
+  - Level: 76
+    Idle: 868147
+    SkillDmg: 760
+    SkillCost: 296736480
+    UnlockRequire: 16
+    SkillName: DragonPunch5
+  - Level: 77
+    Idle: 1041777
+    SkillDmg: 770
+    SkillCost: 370920600
+    UnlockRequire: 16
+    SkillName: DragonPunch5
+  - Level: 78
+    Idle: 1250132
+    SkillDmg: 780
+    SkillCost: 463650780
+    UnlockRequire: 16
+    SkillName: DragonPunch5
+  - Level: 79
+    Idle: 1500159
+    SkillDmg: 790
+    SkillCost: 579563460
+    UnlockRequire: 16
+    SkillName: DragonPunch5
+  - Level: 80
+    Idle: 1800190
+    SkillDmg: 800
+    SkillCost: 724454340
+    UnlockRequire: 16
+    SkillName: DragonPunch5
+  Tool:
+  - STT: 1
+    Name: "C\u1ECDc g\u1ED7 1"
+    Bonus: 0.1
+    Cost: 100
+  - STT: 2
+    Name: "C\u1ECDc g\u1ED7 2"
+    Bonus: 0.2
+    Cost: 300
+  - STT: 3
+    Name: "C\u1ECDc g\u1ED7 3"
+    Bonus: 0.3
+    Cost: 900
+  - STT: 4
+    Name: "C\u1ECDc g\u1ED7 4"
+    Bonus: 0.4
+    Cost: 2700
+  - STT: 5
+    Name: "C\u1ECDc g\u1ED7 5"
+    Bonus: 0.5
+    Cost: 8100
+  - STT: 6
+    Name: "C\u1ECDc g\u1ED7 6"
+    Bonus: 0.6
+    Cost: 24300
+  - STT: 7
+    Name: "C\u1ECDc g\u1ED7 7"
+    Bonus: 0.7
+    Cost: 72900
+  - STT: 8
+    Name: "C\u1ECDc g\u1ED7 8"
+    Bonus: 0.8
+    Cost: 218700
+  - STT: 9
+    Name: "C\u1ECDc g\u1ED7 9"
+    Bonus: 0.9
+    Cost: 656100
+  - STT: 10
+    Name: "C\u1ECDc g\u1ED7 10"
+    Bonus: 1
+    Cost: 1968300
